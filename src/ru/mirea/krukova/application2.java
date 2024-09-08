@@ -41,7 +41,7 @@ public class application2 {
             }
         }*/
 
-        //если усовершенствовать простой метод
+        //дополнение к методу выше
         List<Integer> povtor = new ArrayList<>();
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < len; j++) {
