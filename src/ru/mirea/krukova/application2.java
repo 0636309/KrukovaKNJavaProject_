@@ -41,10 +41,25 @@ public class application2 {
             }
         }*/
 
+        //если усовершенствовать простой метод
+        List<Integer> povtor = new ArrayList<>();
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                if (arrayFirst[i] == arraySecond[j] && !povtor.contains(arrayFirst[i])) {
+                    povtor.add(arrayFirst[i]);
+                }
+            }
+        }
+
+        System.out.println("Повторы: " + povtor);
+
+
+
     }
 
     public static ArrayList<Integer> sameNumbers(int[] arr1, int[] arr2) {
         //Задание 4.
+        //второй метод
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>();
 
